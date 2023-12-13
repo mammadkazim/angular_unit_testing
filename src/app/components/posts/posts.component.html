@@ -1,0 +1,4 @@
+<div class="post-wrapper" *ngFor="let post of posts">
+  <app-post (deleteEvent)="delete(post)" [post]="post"></app-post>
+</div>
+ 
